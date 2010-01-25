@@ -1,0 +1,34 @@
+= Growler
+
+This plugin will ease using Growler prototype extension (http://code.google.com/p/kproto/) in rails app
+
+== Installation
+
+  script/plugin install git://github.com/toy/growler.git
+  # script/generate growler # is called for you automatically
+
+== Example
+
+In your application.html.erb include javascripts and css:
+
+  <%= javascript_include_tag :defaults, :growler %>
+  <%= stylesheet_link_tag 'growler' %>
+
+Then somewhere in body:
+
+  <%= growl_flashes %>
+
+Now in javascript you can use:
+
+  Growl.growl('hello')
+  Growl.info('ok')
+  Growl.warn('ops')
+  Growl.error('bad thing happen')
+  
+  var growl = Growl.error('bad thing happen')
+  …
+  Growl.ungrowl(growl)
+
+growl options are: header, speedin, speedout, life, sticky, className, created, destroyed
+growler options: location, width
+read more: http://code.google.com/p/kproto/wiki/Growler

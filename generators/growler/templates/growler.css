@@ -1,0 +1,8 @@
+div.Growler-notice {
+	background-color: #000; color: #fff; opacity: .85; filter: alpha(opacity = 85);
+	width: 235px; min-height: 40px; padding: 10px; margin: 5px auto; zoom: 1; display: none;
+	font: 12px Tahoma, Arial, Helvetica, sans-serif; text-align: left;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+div.Growler-notice-head { font-weight: bold; font-size: 10px; }
+div.Growler-notice-exit { float: right; font-weight: bold; font-size: 12px; cursor: pointer; }
