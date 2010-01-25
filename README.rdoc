@@ -30,5 +30,7 @@ Now in javascript you can use:
   Growl.ungrowl(growl)
 
 growl options are: header, speedin, speedout, life, sticky, className, created, destroyed
+
 growler options: location, width
+
 read more: http://code.google.com/p/kproto/wiki/Growler
