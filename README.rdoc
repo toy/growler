@@ -1,6 +1,6 @@
 = Growler
 
-This plugin will ease using Growler prototype extension (http://code.google.com/p/kproto/) in rails app
+This plugin will ease using Growler prototype extension (http://code.google.com/p/kproto) in rails app
 
 == Installation
 
